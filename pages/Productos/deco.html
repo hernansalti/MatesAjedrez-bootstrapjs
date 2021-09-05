@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Productos/Deco</title>
+    <link rel="stylesheet" href="../../css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../../css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,24 +25,30 @@
         <h1>Mates Ajedrez</h1>
         <h2>Ja, qué mate!</h2>
     </div>
-    <p class="sesion"><a href="../../pages/ingreso.html" class="decoracionMenu">Crear Cuenta / Iniciar Sesión</a></p>
+    <p class="sesion"><a href="../../pages/ingreso.html" id="decoracionMenu">Crear Cuenta / Iniciar Sesión</a></p>
 </header>
     <!-- menu -->
     <nav>
         <!-- estilos flex -->
         <ul class="flex-menu">
-            <li><a href="../../index.html" class="decoracionMenu">Home</a></li>
-            <li><a href="../productos.html" class="decoracionMenu">Productos▼</a>
-                <ul>
-                    <li><a href="../Productos/mates.html" class="decoracionMenu">Mates</a></li>
-                    <li><a href="../Productos/termos.html" class="decoracionMenu">Termos</a></li>
-                    <li><a href="../Productos/bazar.html" class="decoracionMenu">Bazar</a></li>
-                    <li><a href="../Productos/deco.html" class="decoracionMenu">Deco</a></li>
-                </ul>
-            </li>
-            <li><a href="../nosotros.html" class="decoracionMenu">Nosotros</a></li>
-            <li><a href="../un_buen_mate.html" class="decoracionMenu">Un buen mate</a></li>
-            <li><a href="../contacto.html" class="decoracionMenu">Contacto</a></li>
+            <li><a href="../../index.html" id="decoracionMenu">Home</a></li>
+            <li>
+                <!-- bootstrapjs -->
+                <!-- Example single danger button -->
+                <div class="dropdown">
+                    <button class="btn btn-secundario dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Productos
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="../Productos/mates.html">Mates</a>
+                        <a class="dropdown-item" href="../Productos/termos.html">Termos</a>
+                        <a class="dropdown-item" href="../Productos/bazar.html">Bazar</a>
+                        <a class="dropdown-item" href="../Productos/deco.html">Deco</a>
+                    </div>
+                </div>
+            <li><a href="../nosotros.html" id="decoracionMenu">Nosotros</a></li>
+            <li><a href="../un_buen_mate.html" id="decoracionMenu">Un buen mate</a></li>
+            <li><a href="../contacto.html" id="decoracionMenu">Contacto</a></li>
         </ul>
     </nav>
     <!-- cuerpo -->
@@ -47,10 +57,10 @@
         <h2 id="titulo">Deco</h2>
         <article id="menuLista">
             <ul class="menuLista" >
-                <li class="menuListaLi"><a href="../Productos/mates.html" class="decoracionMenu">Mates</a></li>
-                <li class="menuListaLi"><a href="../Productos/termos.html" class="decoracionMenu">Termos</a></li>
-                <li class="menuListaLi"><a href="../Productos/bazar.html" class="decoracionMenu">Bazar</a></li>
-                <li class="menuListaLi"><a href="../Productos/deco.html" class="decoracionMenu">Deco</a></li>
+                <li class="menuListaLi"><a href="../Productos/mates.html" id="decoracionMenu">Mates</a></li>
+                <li class="menuListaLi"><a href="../Productos/termos.html" id="decoracionMenu">Termos</a></li>
+                <li class="menuListaLi"><a href="../Productos/bazar.html" id="decoracionMenu">Bazar</a></li>
+                <li class="menuListaLi"><a href="../Productos/deco.html" id="decoracionMenu">Deco</a></li>
             </ul>
         </article>
         <aside id="fotos">
