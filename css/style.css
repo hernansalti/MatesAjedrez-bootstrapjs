@@ -185,32 +185,6 @@ body{
 .imagen2:hover{
     width: 70vw;
 }
-/* seccion productos */
-.prod{
-    width: 100%;
-    margin-bottom: 100px;
-}
-/* estilos grid */
-/* aca es donde tenia problemas al aplicar el grid, no se si lo hice correctamente */
-.productos{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-template-rows: 10vh 30vh;
-    font-family: 'Raleway', sans-serif, bold;
-    text-align: center;
-    font-size: 30px;
-    text-shadow: 3px 3px 5px #5dc1b9;
-}
-/* transition */
-.fotoprod{
-    width: 200px;
-    height: 200px;
-    transition: all 1.5s;
-}
-.fotoprod:hover{
-    height: 220px; width: 220px;
-    padding: 20px;
-}
 /*seccion mates*/
 /* estilos grid-area */
 #grilla{
