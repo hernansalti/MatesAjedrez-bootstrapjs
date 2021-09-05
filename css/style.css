@@ -4,7 +4,7 @@
 }
 /* inicio del header */
 
-
+/* adapto a mobile */
 header{
     display: flex;
     flex-direction: row;
