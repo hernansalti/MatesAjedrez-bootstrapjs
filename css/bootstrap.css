@@ -1668,10 +1668,10 @@ pre code {
 }
 
 .table {
-  width: 100%;
+  width: 80%;
   max-width: 100%;
   margin-bottom: 1rem;
-  background-color: transparent;
+  background-color: #5dc1b98a;
 }
 
 .table th,
@@ -1724,7 +1724,8 @@ pre code {
 .table-primary,
 .table-primary > th,
 .table-primary > td {
-  background-color: #b8daff;
+  background-color: #5dc1b954;
+  padding: 20vw;
 }
 
 .table-hover .table-primary:hover {
