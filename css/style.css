@@ -10,8 +10,8 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
-@media (max-width: 575.98px){
-    .mediaquery{
+@media (min-width: 320px){
+    header{
         display: flex;
 text-align: center;
 font-size: 50px;
