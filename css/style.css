@@ -233,14 +233,13 @@ body{
     display: flex;
     font-family: 'Raleway', sans-serif;
     color: black;
-    font-size: 30px;
-    text-shadow: 3px 3px 5px #5dc1b9;
+    font-size: 20px;
     text-align: center;
     align-items: center;
     margin-top: 20px;
 }
 .nosotros-flex{
-    background: rgba(255, 255, 255, 0.61);
+    background: #5dc1b993;
     display: flex;
     flex-direction: column;
     margin: 20px
@@ -284,7 +283,7 @@ table{
     margin-right: 150px;
     margin-bottom: 30px;
     background-color: white;
-    border-color: #5dc1b9;
+    border-color: #5dc1b9b7;
 }
 /*seccion ingreso */
 .formulario{
