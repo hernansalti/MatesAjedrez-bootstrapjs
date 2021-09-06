@@ -233,17 +233,16 @@ body{
     display: flex;
     font-family: 'Raleway', sans-serif;
     color: black;
-    font-size: 30px;
-    text-shadow: 3px 3px 5px #5dc1b9;
+    font-size: 20px;
     text-align: center;
     align-items: center;
     margin-top: 20px;
 }
 .nosotros-flex{
-    background: rgba(255, 255, 255, 0.61);
     display: flex;
+    background: #5dc1b99a;
     flex-direction: column;
-    margin: 20px
+    margin: 40px
 }
 .imagen3{
     width: 30vw;
