@@ -4,12 +4,13 @@
 }
 /* inicio del header */
 
-/* adapto a mobile */
 header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+/* media query */
+
 @media (min-width: 320px){
     header{
         display: flex;
@@ -34,6 +35,10 @@ justify-content: space-evenly;
 .nosotros{
     display: flex;
     flex-wrap: nowrap;
+    flex-direction: column;
+}
+.formulario{
+    display: flex;
     flex-direction: column;
 }
 }
@@ -287,14 +292,14 @@ table{
 }
 /*seccion ingreso */
 .formulario{
-    margin: 60px;
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 .formulario__contenido{
     background-color: white;
-    padding: 15px;
-    margin-left: 550px;
-    margin-right: 550px; 
+    padding: 15px; 
+    margin: 50px;
     line-height: 25px;  
 }
 .sel{
