@@ -1,0 +1,58 @@
+/* esto es un comentario css puro */
+// Esto es un comentario de SCSS
+
+//importacion
+@import "colores";
+body{
+    background-color: $cnegro
+}
+@import "grillas";
+#grilla{
+    display: $grilla1;
+}
+@import "sombras-fuentes";
+h1{
+    text-shadow: $saquamayor;
+}
+h2{
+    text-shadow: $saqua;
+}
+h3{
+    text-shadow: $snegra;
+}
+
+
+$rojo: rgb(206, 109, 109);// vars de valor unico
+
+/* ANIDACION - NESTING */
+// VARIABLES
+//variables globales
+
+h1 {
+    background-color: red;
+}
+ul {
+    list-style: none;
+        li {
+            padding: 15px;
+            display: inline-block;
+            /*compila color de la pagina colores de scss*/
+            background-color: $caquadeg ;
+            a {
+                text-decoration: none;
+                font-size: 16px;
+                color: rebeccapurple;                
+                }
+                a:hover {
+                    text-decoration: underline;
+                    font-size: 14px;
+                    color: rgb(155, 39, 39);
+                }
+        }
+}    
+p{
+    color: $rojo
+   }
+
+
+   

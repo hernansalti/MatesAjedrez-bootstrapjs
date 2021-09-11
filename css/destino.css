@@ -1,0 +1,41 @@
+/* esto es un comentario css puro */
+/* PALETA DE COLORES */
+body {
+  background-color: black; }
+
+/* ESTILOS GRILLAS */
+#grilla {
+  display: width fit-content, height fit-content, display grid, grid-template-areas "titulo titulo titulo titulo" "menu fotos fotos fotos" "menu fotos fotos fotos" "menu fotos fotos fotos"; }
+
+/* ESTILOS SOMBRAS DE FUENTES */
+h1 {
+  text-shadow: text-shadow 4px 4px 6px #5dc1b9; }
+
+h2 {
+  text-shadow: text-shadow 3px 3px 5px #5dc1b9; }
+
+h3 {
+  text-shadow: text-shadow 3px 3px 5px #000000; }
+
+/* ANIDACION - NESTING */
+h1 {
+  background-color: red; }
+
+ul {
+  list-style: none; }
+  ul li {
+    padding: 15px;
+    display: inline-block;
+    /*compila color de la pagina colores de scss*/
+    background-color: #1a94aa6b; }
+    ul li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: rebeccapurple; }
+    ul li a:hover {
+      text-decoration: underline;
+      font-size: 14px;
+      color: #9b2727; }
+
+p {
+  color: #ce6d6d; }
